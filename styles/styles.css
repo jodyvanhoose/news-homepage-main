@@ -1,0 +1,163 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* utilities */
+
+a{
+  text-decoration: none;
+  color: hsl(240, 100%, 5%);
+  cursor: pointer;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  padding: 1em 2.5em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: hsl(5, 85%, 63%);
+  color: #fff;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* page styles */
+
+body{
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+}
+
+.container{
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+/* nav-bar */
+
+header{
+  position: relative;
+}
+
+.nav-bar{
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* hamburger menu */
+.menu-open{
+  cursor: pointer;
+}
+
+.isActive{
+  display: none;
+}
+
+
+/* menu x-close */
+.menu-close{
+  /* font-size: .5rem; */
+  padding: 1.8rem 1.2rem 0 0;
+  align-self: flex-end;
+  cursor: pointer;
+  /* display: none; */
+}
+
+/* .nav-bar ul{
+  display: flex;
+  flex-direction: column;
+} */
+
+nav{
+  position: absolute;
+  right: -100%;
+  top: 2%;
+  background-color: hsl(36, 100%, 99%);
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  /* padding: 1em; */
+  height: 100vh;
+  transition: all .5s;
+}
+
+.isOpen{
+  right: -5.5%;
+}
+
+nav ul{
+  padding: 5em 0 0 1em;
+}
+
+nav ul li{
+  padding: 1.2em 1em;
+  align-self: flex-start;
+}
+
+
+
+/* main-section */
+
+main img{
+  width: 100%;
+}
+
+main h1{
+  font-size: 2.8rem;
+  padding: .4em 0;
+  line-height: 1;
+}
+
+.section{
+  padding-bottom: .4em;
+}
+
+.section p{
+  margin-bottom: 1.5em;
+}
+
+.new-section{
+  background-color: #000;
+  color: #fff;
+  padding: 1em;
+  margin: 3em 0;
+}
+
+.new-section h2{
+  color: hsl(35, 77%, 62%);
+}
+
+.new-subsection{
+  border-bottom: solid #777 1px;
+  padding: 1em 0;
+}
+
+.new-subsection:nth-of-type(3){
+  border-bottom: none;
+}
+
+.new-subsection h3{
+  padding-bottom: .3em;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.new-section a{
+  color: #fff;
+  padding-bottom: .5em;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.new-subsection p{
+  color: hsl(233, 8%, 79%);
+}
