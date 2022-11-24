@@ -67,4 +67,4 @@ During this process I was able to experience developing a site design that was n
 
 
 - Code Kentucky - https://codekentucky.org
-- Frontend Mentor - https://www.grammerhub.org/hire/developers/
+- GrammerHub - https://www.grammerhub.org/hire/developers/
